@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tmdgh\\source\\repos\\CodekataDay6\\",
+  "WorkspaceRootPath": "C:\\Users\\tmdgh\\Documents\\GitHub\\algorithm\\CodekataOthers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F14EBFE8-A7BA-42F7-BDD3-6C14DEDCEBE4}|CodekataDay6\\CodekataDay6.vcxproj|C:\\Users\\tmdgh\\source\\repos\\CodekataDay6\\CodekataDay6\\day6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F14EBFE8-A7BA-42F7-BDD3-6C14DEDCEBE4}|CodekataDay6\\CodekataDay6.vcxproj|C:\\Users\\tmdgh\\Documents\\GitHub\\algorithm\\CodekataOthers\\CodekataDay6\\day6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F14EBFE8-A7BA-42F7-BDD3-6C14DEDCEBE4}|CodekataDay6\\CodekataDay6.vcxproj|solutionrelative:CodekataDay6\\day6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "day6.cpp",
-              "DocumentMoniker": "C:\\Users\\tmdgh\\source\\repos\\CodekataDay6\\CodekataDay6\\day6.cpp",
+              "DocumentMoniker": "C:\\Users\\tmdgh\\Documents\\GitHub\\algorithm\\CodekataOthers\\CodekataDay6\\day6.cpp",
               "RelativeDocumentMoniker": "CodekataDay6\\day6.cpp",
-              "ToolTip": "C:\\Users\\tmdgh\\source\\repos\\CodekataDay6\\CodekataDay6\\day6.cpp",
+              "ToolTip": "C:\\Users\\tmdgh\\Documents\\GitHub\\algorithm\\CodekataOthers\\CodekataDay6\\day6.cpp",
               "RelativeToolTip": "CodekataDay6\\day6.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-30T00:02:16.388Z",
               "EditorCaption": ""

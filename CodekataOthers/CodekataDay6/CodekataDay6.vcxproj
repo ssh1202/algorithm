@@ -24,6 +24,7 @@
     <ProjectGuid>{f14ebfe8-a7ba-42f7-bdd3-6c14dedcebe4}</ProjectGuid>
     <RootNamespace>CodekataDay6</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Codekata</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
