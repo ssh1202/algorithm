@@ -48,4 +48,13 @@ vector<int> solution(long long n) {
         n /= 10;
     }
     return answer;
+}//자연수를 정수로 변환
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(string s) {
+    int answer = stoi(s);
+    return answer;
 }
