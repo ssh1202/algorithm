@@ -58,3 +58,14 @@ int solution(string s) {
     int answer = stoi(s);
     return answer;
 }
+//정수 제곱근 판별
+#include <string>
+#include <vector>
+#include <math.h>
+using namespace std;
+
+long long solution(long long n) {
+    long long answer = sqrt(n); // 제곱근을 구하는 함수
+
+    return powl(answer, 2) == n ? powl(answer + 1, 2) : -1; //거듭 제곱을 계산하는 함수
+}
