@@ -65,7 +65,27 @@ int solution(string s) {
 using namespace std;
 
 long long solution(long long n) {
-    long long answer = sqrt(n); // 제곱근을 구하는 함수
+    long long answer = sqrt(n); 
 
-    return powl(answer, 2) == n ? powl(answer + 1, 2) : -1; //거듭 제곱을 계산하는 함수
+    return powl(answer, 2) == n ? powl(answer + 1, 2) : -1;
 }
+//정수 내림차순으로 배치하기
+#include <vector>
+#include <algorithm>
+#include <functional>
+using namespace std;
+
+long long solution(long long n) {
+    long long answer = 0;
+    vector<int> vec;
+    while (n > 0) {
+        vec.push_back(n % 10);
+        n /= 10;
+    }
+    sort(vec.begin(), vec.end(), greater<int>());
+    for (int i = 0; i < vec.size(); i++) {
+        answer = answer * 10 + vec[i];
+    }
+    return answer;
+}
+//
