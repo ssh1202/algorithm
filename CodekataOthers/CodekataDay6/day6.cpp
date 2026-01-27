@@ -1,4 +1,4 @@
-//³ª¸ÓÁö°¡ 1ÀÌ µÇ´Â ¼ö Ã£±â
+ï»¿//ë‚˜ë¨¸ì§€ê°€ 1ì´ ë˜ëŠ” ìˆ˜ ì°¾ê¸°
 #include <string>
 #include <vector>
 
@@ -16,7 +16,7 @@ int solution(int n) {
     }
 
 }
-//x¸¸Å­ °£°İÀÌ ÀÖ´Â n°³ÀÇ ¼ıÀÚ
+//xë§Œí¼ ê°„ê²©ì´ ìˆëŠ” nê°œì˜ ìˆ«ì
 #include <string>
 #include <vector>
 
@@ -35,7 +35,7 @@ vector<long long> solution(int x, int n) {
 
     return answer;
 }
-//ÀÚ¿¬¼ö µÚÁı¾î ¹è¿­·Î ¸¸µé±â
+//ìì—°ìˆ˜ ë’¤ì§‘ì–´ ë°°ì—´ë¡œ ë§Œë“¤ê¸°
 #include <string>
 #include <vector>
 
@@ -48,7 +48,7 @@ vector<int> solution(long long n) {
         n /= 10;
     }
     return answer;
-}//ÀÚ¿¬¼ö¸¦ Á¤¼ö·Î º¯È¯
+}//ìì—°ìˆ˜ë¥¼ ì •ìˆ˜ë¡œ ë³€í™˜
 #include <string>
 #include <vector>
 
@@ -58,7 +58,7 @@ int solution(string s) {
     int answer = stoi(s);
     return answer;
 }
-//Á¤¼ö Á¦°ö±Ù ÆÇº°
+//ì •ìˆ˜ ì œê³±ê·¼ íŒë³„
 #include <string>
 #include <vector>
 #include <math.h>
@@ -69,7 +69,7 @@ long long solution(long long n) {
 
     return powl(answer, 2) == n ? powl(answer + 1, 2) : -1;
 }
-//Á¤¼ö ³»¸²Â÷¼øÀ¸·Î ¹èÄ¡ÇÏ±â
+//ì •ìˆ˜ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ë°°ì¹˜í•˜ê¸°
 #include <vector>
 #include <algorithm>
 #include <functional>
@@ -88,7 +88,7 @@ long long solution(long long n) {
     }
     return answer;
 }
-//ÇÏ»şµå ¼ö
+//í•˜ìƒ¤ë“œ ìˆ˜
 #include <string>
 #include <vector>
 
@@ -106,7 +106,7 @@ bool solution(int x) {
     return src % sum == 0;
 
 }
-//µÎ Á¤¼ö »çÀÌÀÇ ÇÕ
+//ë‘ ì •ìˆ˜ ì‚¬ì´ì˜ í•©
 #include <string>
 #include <vector>
 
@@ -121,7 +121,7 @@ long long solution(int a, int b) {
 }
 
 
-//Äİ¶óÃ÷ ÃßÃø (01.02)
+//ì½œë¼ì¸  ì¶”ì¸¡ (01.02)
 int solution(int num) {
     long long n = num; 
     int count = 0;
@@ -144,7 +144,7 @@ int solution(int num) {
     else
         return -1;
 }
-//¼­¿ï¿¡¼­ ±è¼­¹æ Ã£±â
+//ì„œìš¸ì—ì„œ ê¹€ì„œë°© ì°¾ê¸°
 #include <string>
 #include <vector>
 
@@ -154,11 +154,11 @@ string solution(vector<string> seoul) {
     string answer = "";
     for (int i = 0; i < seoul.size(); i++) {
         if (seoul[i] == "Kim")
-            answer = "±è¼­¹æÀº " + to_string(i) + "¿¡ ÀÖ´Ù";
+            answer = "ê¹€ì„œë°©ì€ " + to_string(i) + "ì— ìˆë‹¤";
     }
     return answer;
 }
-//³ª´©¾î ¶³¾îÁö´Â ¼ıÀÚ
+//ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ëŠ” ìˆ«ì
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -173,7 +173,7 @@ vector<int> solution(vector<int> arr, int divisor) {
     sort(answer.begin(), answer.end());
     return answer;
 }
-//À½¾ç ´õÇÏ±â
+//ìŒì–‘ ë”í•˜ê¸°
 #include <string>
 #include <vector>
 
@@ -187,4 +187,78 @@ int solution(vector<int> absolutes, vector<bool> signs) {
     }
     return answer;
 }
-//
+//í•¸ë“œí° ë²ˆí˜¸ ê°€ë¦¬ê¸°
+#include <string>
+#include <vector>
+
+using namespace std;
+
+string solution(string phone_number) {
+    string answer = phone_number;
+    for (int i = 0; i < answer.size() - 4; i++) {
+        answer.replace(i, 1, "*");
+    }
+    return answer;
+}
+
+//ì—†ëŠ” ìˆ«ì ë”í•˜ê¸°
+
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(vector<int> numbers) {
+
+    int answer = 45;
+
+    for (int i = 0; i < numbers.size(); i++)
+        answer -= numbers[i];
+
+    return answer;
+}
+//ì œì¼ ì‘ì€ ìˆ˜ ì œê±°í•˜ê¸°
+
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+vector<int> solution(vector<int> arr) {
+    if (arr.size() == 1) {
+        return vector<int>{-1};
+    }
+
+    int minValue = *min_element(arr.begin(), arr.end());
+
+    vector<int> answer;
+    for (int i = 0; i < arr.size(); i++) {
+        if (arr[i] != minValue) {
+            answer.push_back(arr[i]);
+        }
+    }
+
+    return answer;
+}
+//ìˆ˜ë°•
+#include <string>
+#include <vector>
+
+using namespace std;
+
+string solution(int n) {
+    string answer = "";
+
+    for (int i = 0; i < n; i++)
+    {
+        if (i % 2 == 0) {
+            // ì§ìˆ˜ ("ìˆ˜")
+            answer += "ìˆ˜";
+        }
+        else {
+            // í™€ìˆ˜ ("ë°•")
+            answer += "ë°•";
+        }
+    }
+
+    return answer;
+}
